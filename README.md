@@ -25,12 +25,12 @@ A Python-based tool that automatically closes browser tabs when it detects speci
    ```bash
    pip install pyautogui keyboard opencv-python numpy
    ```
-3. Create a `_internal/TARGETS` folder in the project directory
+3. Create a `TARGETS` folder in the project directory
 4. Add screenshots of the channel names/content you want to block in the TARGETS folder
 
 ## Usage
 
-1. Place screenshots of the channel names or content you want to block in the `_internal/TARGETS` folder
+1. Place screenshots of the channel names or content you want to block in the `TARGETS` folder
 2. Run the script:
    ```bash
    python main.py
